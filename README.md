@@ -10,4 +10,4 @@ IL Code Wevaing examples
   
 Have fun!!!
 
-P.S: for you how knows it => I know that since .net 4.0 you don't need to add DataContract and DataMember => but hey, this is just an example of aop ;-)
+P.S: WCF (DataMemeber and DataContract handling): for you how know it => since .net 4.0 you don't need to add DataContract and DataMember to your data contracts => but hey, this should give you an idea how to use aop ;-)
