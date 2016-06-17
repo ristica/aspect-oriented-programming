@@ -5,7 +5,7 @@ namespace AOPSampleApp.Salary
 {
     public class EmployeeSalary
     {
-        [ExceptionHAndlerAspect]
+        [ExceptionHandlerAspect]
         [LogAspect]
         public void Calc()
         {

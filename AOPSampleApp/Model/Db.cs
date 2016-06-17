@@ -16,7 +16,6 @@ namespace AOPSampleApp.Model
     /// </summary>
     public class Db
     {
-        //[TransactionAspect]
         //[LogAspect]
         [TransactionScope(MaxRetries = 3, RetryDelay = 1)]
         public void Create(Person person)

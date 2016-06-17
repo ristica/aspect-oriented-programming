@@ -3,8 +3,12 @@ using PostSharp.Aspects;
 
 namespace AOPSampleApp.Aspects
 {
+    /// <summary>
+    /// if we need more sophisticated exception handling then we could have wit
+    /// our logging aspect
+    /// </summary>
     [Serializable]
-    public sealed class ExceptionHAndlerAspect : OnExceptionAspect
+    public sealed class ExceptionHandlerAspect : OnExceptionAspect
     {
         public override void OnException(MethodExecutionArgs args)
         {
